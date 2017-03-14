@@ -124,34 +124,40 @@ header p{
 }
 
 .fboxes {
-    height: 300px;
-    width: 76%;
-    padding-left: 200px;
-    padding-right: 200px;
+    height: 400px;
+    max-width: 60%;
+	margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 .aytml, .seess, .jawa, .whitep{
-    max-width: 250px;
+    width: 200px;
+	max-height: 400px;
+	align-self: flex-end;
 }
 
 .aytml{
     border: solid darkblue 1px;
     background: linear-gradient(aqua,blue);
+	height: 380px;
+
 }
 
 .seess{
     border: solid red 1px;
     background: linear-gradient(orange, orangered);
+	height: 320px;
 }
 
 .jawa{
     border: solid lightyellow 1px;
     background: linear-gradient(yellow, red);
+	height: 360px;
 }
 
 .whitep{
     border: solid brown 1px;
     background-color: sandybrown;
+	height: 320px;
 }
