@@ -125,11 +125,7 @@ header p{
 .cancer h1{
 	margin-top: 0;
 	font-size: 35px;
-	padding-top: 80px;
-}
-
-.ninefive{
-    padding-top: 250px;
+	padding-top: 40px;
 }
 
 .fboxes {
@@ -184,5 +180,42 @@ header p{
 	padding-bottom: 25px;
 	color: white;
 	font-size: 18px;
+}
+
+.portfolio{
+	text-align: center;
+}
+
+.cstuff h1{
+	margin-top: 0;
+	font-size: 35px;
+	padding-top: 80px;
+}
+
+.cstuff hr{
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.selectors{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-width: 60%;
+	margin: 50px auto;
+}
+
+.click{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	font-size: 20px;
+	width: 200px;
+	height: 50px;
+	background-color: cornflowerblue;
+}
+
+.click p{
 
 }
