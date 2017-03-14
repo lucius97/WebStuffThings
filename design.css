@@ -125,7 +125,9 @@ header p{
 
 .fboxes {
     height: 300px;
-    width: 100%;
+    width: 76%;
+    padding-left: 200px;
+    padding-right: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
