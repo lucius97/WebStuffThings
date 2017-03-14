@@ -33,7 +33,7 @@ body {
 
 .topbar a{
     color: white;
-    text-decoration-line: none;
+    text-decoration: none;
 }
 
 header{
@@ -119,12 +119,19 @@ header p{
     text-align: center;
 }
 
-.aytml, .seess, .jawa, .whitep{
-    display: inline-block;
+.ninefive{
+    padding-top: 250px;
+}
+
+.fboxes {
     height: 300px;
-    width: 200px;
-    vertical-align: middle;
-    margin: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.aytml, .seess, .jawa, .whitep{
+    max-width: 250px;
 }
 
 .aytml{
