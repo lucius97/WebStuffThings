@@ -119,6 +119,11 @@ header p{
     text-align: center;
 }
 
+.cancer h1{
+	font-size: 35px;
+	padding-top: 80px;
+}
+
 .ninefive{
     padding-top: 250px;
 }
@@ -132,16 +137,19 @@ header p{
     justify-content: space-around;
 }
 .aytml, .seess, .jawa, .whitep{
-    width: 200px;
+	display: flex;
+	flex-direction: column;
+    max-width: 200px;
+	min-width: 150px;
 	max-height: 400px;
 	align-self: flex-end;
+	justify-content: flex-end;
 }
 
 .aytml{
     border: solid darkblue 1px;
     background: linear-gradient(aqua,blue);
 	height: 380px;
-
 }
 
 .seess{
@@ -160,4 +168,17 @@ header p{
     border: solid brown 1px;
     background-color: sandybrown;
 	height: 320px;
+}
+
+.numb{
+	color: white;
+	opacity: 0.5;
+	font-size: 48px;
+}
+
+.numb2{
+	padding-bottom: 25px;
+	color: white;
+	font-size: 18px;
+
 }
