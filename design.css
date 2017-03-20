@@ -1,7 +1,8 @@
 @CHARSET "ISO-8859-1";
 
 *{
-    font-family: 'Roboto', sans-serif
+    font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1.5px;
 }
 
 body {
@@ -69,6 +70,7 @@ header p{
 .designer {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	background-image: url("assets/img/bg/divider12.png");
 	background-position:center;
 	background-size: cover;
@@ -202,7 +204,7 @@ header p{
 .selectors{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	max-width: 60%;
 	margin: 50px auto;
 }
@@ -215,9 +217,120 @@ header p{
 	font-size: 20px;
 	width: 200px;
 	height: 50px;
-	background-color: cornflowerblue;
+	background-color: deepskyblue;
 }
 
-.click p{
+.click:hover{
+	background-color: greenyellow;
+}
 
+.designpics{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	flex-shrink: 0;
+	width: 100%;
+}
+
+.examplepics{
+	display: flex;
+	flex-shrink: 0;
+	max-height: 200px;
+	max-width: 25%;
+	margin-right: 10px;
+}
+
+.examplepics img{
+	display: flex;
+	flex-shrink: 0;
+	width: 100%;
+	height: auto;
+}
+
+.examplepics h5{
+	margin-top: 0;
+	background-color: deepskyblue;
+}
+
+.blog {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.textblog{
+	display: flex;
+	flex-direction: row;
+}
+
+.stories{
+	display: flex;
+	flex-direction: row;
+}
+
+.profile{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: dimgray;
+	color: white;
+	text-align: center;
+}
+
+.profile h4,h5 {
+	width: 120px;
+	margin: 5px auto;
+}
+
+.profile h4{
+	font-size: 14px;
+}
+
+.profile h5{
+	font-size: 8px;
+}
+
+.blogstories{
+	padding-left: 10px;
+}
+
+.blogstories p{
+	font-size: 14px;
+}
+
+.blogstories a{
+	text-decoration: none;
+}
+
+.exampleblog{
+	display: flex;
+	flex-direction: column;
+}
+
+.readmore{
+	list-style-type: none;
+	background-color: dimgray;
+	color: white;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	height: 100px;
+	width: 115px;
+	padding-left: 10px;
+}
+
+.readmore h5{
+	font-size: 8px;
+}
+
+.readmore p{
+	font-size: 14px;
+}
+
+.readmore a{
+	text-decoration: none;
+	font-size: 14px;
 }
