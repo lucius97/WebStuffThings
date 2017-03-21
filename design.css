@@ -1,12 +1,12 @@
 @CHARSET "ISO-8859-1";
 
 *{
-    font-family: 'Open Sans', sans-serif;
-	letter-spacing: 1.5px;
+    font-family: 'Century Gothic';
+	letter-spacing: 1px;
 }
 
 p{
-	line-height: 20px;
+	line-height: 30px;
 }
 
 body {
@@ -57,6 +57,9 @@ header p{
 }
 
 .aboutme{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 	text-align: center;
 }
 
@@ -67,8 +70,9 @@ header p{
 
 .aboutme p{
 	text-align: left;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 50px;
 }
 
 .designer {
@@ -246,6 +250,16 @@ header p{
 	margin-right: 10px;
 }
 
+.examplepics a{
+	text-decoration: none;
+}
+
+.examplepics figcaption{
+	display: flex;
+	flex-direction: row;
+	background-color: deepskyblue;
+}
+
 .examplepics img{
 	display: flex;
 	flex-shrink: 0;
@@ -262,6 +276,8 @@ header p{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: aliceblue;
+	justify-content: space-around;
 }
 
 .textblog{
@@ -278,8 +294,6 @@ header p{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-left: 15px;
-	padding-right: 15px;
 	background-color: dimgray;
 	color: white;
 	text-align: center;
@@ -300,6 +314,7 @@ header p{
 
 .blogstories{
 	padding-left: 10px;
+	background-color: white;
 }
 
 .blogstories p{
@@ -323,13 +338,15 @@ header p{
 	text-align: left;
 	margin-bottom: 10px;
 	margin-left: 10px;
-	height: 100px;
-	width: 150px;
+	max-height: 33%;
+	max-width: 150px;
+	min-width: 10%;
 	padding-left: 10px;
 }
 
 .readmore h5{
 	font-size: 10px;
+	margin: 0;
 }
 
 .readmore p{
@@ -339,17 +356,24 @@ header p{
 .readmore a{
 	text-decoration: none;
 	font-size: 14px;
+	opacity: 0.65;
 }
 
 .zuripic{
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
 	height: 450px;
 	background-attachment: scroll;
 	background-size: cover;
 	background-image: url("assets/img/bg/divider661.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.zuripic hr{
+	width: 50%;
+	margin: 0;
 }
 .crafted{
 	display: flex;
@@ -363,14 +387,66 @@ header p{
 .crafted h1{
 	max-width: 100%;
 	max-height: 50%;
-	font-size: 24px;
+	font-size: 32px;
 	color: white;
 	text-align:center;
 }
 
 .crafted p{
 	max-width: 75%;
-	font-size: 18px;
+	font-size: 28px;
 	color: white;
 	text-align:center;
+}
+
+.contacts_containers{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info_container{
+	display: flex;
+	flex-direction: row;
+	margin-left: 5%;
+	margin-right: 5%;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+
+.info_items{
+	line-height: 10px;
+	width: 33%;
+	height: auto;
+	text-decoration: none;
+}
+
+.info_items p{
+	font-size: 14px;
+}
+
+.info_items h3{
+	margin-top: 25px;
+}
+
+.newsletter{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-self: flex-end;
+	height: 100px;
+}
+
+.globis{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: darkslategray;
+	color: white;
+	padding: 50px;
+}
+
+.globis a{
+	text-decoration: none;
 }
