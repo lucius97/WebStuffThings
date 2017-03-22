@@ -365,7 +365,7 @@ header p{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	width: 80%;
+	width: 70%;
 }
 
 .readmore{
@@ -375,7 +375,7 @@ header p{
 	text-align: left;
 	margin-bottom: 10px;
 	margin-left: 10px;
-	width: 100%;
+	width: 90%;
 	padding-left: 10px;
 }
 
@@ -387,7 +387,7 @@ header p{
 
 .readmore p{
 	font-size: 14px;
-	max-width: 80px;
+	max-width: 90%;
 }
 
 .readmore a{
